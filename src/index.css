@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 220 50% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 50% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 50% 10%;
+
+    --primary: 220 55% 15%;
+    --primary-foreground: 45 60% 90%;
+
+    --secondary: 210 30% 94%;
+    --secondary-foreground: 220 55% 15%;
+
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 15% 45%;
+
+    --accent: 42 78% 55%;
+    --accent-foreground: 220 55% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 25% 90%;
+    --input: 214 25% 90%;
+    --ring: 220 55% 15%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --navy-50: 220 55% 96%;
+    --navy-100: 220 50% 90%;
+    --navy-800: 220 55% 15%;
+    --navy-900: 220 60% 10%;
+
+    --gold: 42 78% 55%;
+    --gold-light: 42 65% 70%;
+    --gold-dark: 42 85% 40%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 220 60% 6%;
+    --foreground: 210 40% 98%;
+    --card: 220 55% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 55% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 42 78% 55%;
+    --primary-foreground: 220 55% 10%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 42 78% 55%;
+    --accent-foreground: 220 55% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 42 78% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(42, 78%, 55%), hsl(42, 65%, 70%));
+  }
+
+  .bg-navy-gradient {
+    background: linear-gradient(135deg, hsl(220, 60%, 10%), hsl(220, 55%, 20%));
+  }
+
+  .bg-hero-overlay {
+    background: linear-gradient(to right, hsla(220, 60%, 8%, 0.88), hsla(220, 55%, 15%, 0.6));
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-up-delay {
+    animation: fadeUp 0.6s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-up-delay-2 {
+    animation: fadeUp 0.6s ease-out 0.4s forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
