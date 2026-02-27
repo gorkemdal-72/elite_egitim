@@ -5,17 +5,17 @@ const CITIES = [
   {
     name: "Bakü Üniversiteleri",
     description: "Hazar’ın kıyısında, bölgenin en önemli merkezlerinden biri olan Bakü’de, modern bir kampüs deneyimi ve dinamik bir gelecek sizi bekliyor.",
-    image: "/images/baku.jpg", 
+    image: "/images/baku.jpeg",
   },
   {
     name: "Gence Üniversiteleri",
     description: "Medeniyetlerin beşiği, tarihi dokusu ve saygın akademik kadrolara sahip üniversiteleriyle huzurlu bir öğrenci şehri.",
-    image: "/images/gence.jpg", 
+    image: "/images/gence.jpeg",
   },
   {
     name: "Nahçıvan Üniversiteleri",
     description: "Sakin doğası, yüksek güvenlik standartları ve yenilikçi eğitim vizyonuyla, akademik başarı odaklı kusursuz bir alternatif.",
-    image: "/images/nahcivan.jpg", 
+    image: "/images/nahcivan.jpeg",
   },
 ];
 

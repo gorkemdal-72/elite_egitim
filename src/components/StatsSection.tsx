@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 const STATS = [
   { value: "100%", label: "Kayıt Garantisi" },
-  { value: "3+", label: "Aktif Ofis" },
   { value: "10+", label: "Uzman Kadro" },
   { value: "12+", label: "Partner Üniversite" },
 ];
