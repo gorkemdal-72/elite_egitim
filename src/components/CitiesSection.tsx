@@ -4,18 +4,18 @@ import { MapPin } from "lucide-react";
 const CITIES = [
   {
     name: "Bakü Üniversiteleri",
-    description: "Hazar'ın incisi, Kafkasya'nın kültürel ve ekonomik başkenti Bakü'de, modern ve dinamik bir kampüs hayatı sizi bekliyor.",
-    image: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=800&auto=format&fit=crop",
+    description: "Hazar’ın kıyısında, bölgenin en önemli merkezlerinden biri olan Bakü’de, modern bir kampüs deneyimi ve dinamik bir gelecek sizi bekliyor.",
+    image: "https://images.unsplash.com/photo-1546415822-7af510dcb8c9?q=80&w=800&auto=format&fit=crop", // Modern city/campus look
   },
   {
     name: "Gence Üniversiteleri",
     description: "Medeniyetlerin beşiği, tarihi dokusu ve saygın akademik kadrolara sahip üniversiteleriyle huzurlu bir öğrenci şehri.",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=800&auto=format&fit=crop", // Historic/Classic campus building
   },
   {
     name: "Nahçıvan Üniversiteleri",
-    description: "Sakin doğası, yüksek güvenlik standartları ve yenilikçi eğitim vizyonuyla, akademik başarı odaklı kusursuz bir alternatif.",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop",
+    description: "Güvenliğin ve sükunetin ön planda olduğu, modern eğitim yaklaşımlarıyla desteklenen bu ortam, tam anlamıyla başarı odaklı bir akademik durak.",
+    image: "https://images.unsplash.com/photo-1525926477800-7a3eaaafaff1?q=80&w=800&auto=format&fit=crop", // Peaceful nature campus look
   },
 ];
 

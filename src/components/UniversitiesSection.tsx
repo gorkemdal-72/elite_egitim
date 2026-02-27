@@ -7,84 +7,84 @@ const UNIVERSITIES = [
     city: "Bakü",
     founded: "1950",
     description: "Mühendislik ve teknoloji alanlarında köklü bir geçmişe sahip olan bu prestijli kurum, Bakü'de donanımlı profesyoneller yetiştirmektedir.",
-    image: "https://images.unsplash.com/photo-1574226516831-e1dff420e5c7?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=800&auto=format&fit=crop", // Classic university building
   },
   {
     name: "Azerbaycan Mimarlık ve İnşaat Üniversitesi",
     city: "Bakü",
     founded: "1920",
     description: "Bölgenin yapı ve mimari geleceğine yön veren üniversite, modern inşaat teknolojilerini ve estetik vizyonu bir araya getirir.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop", // Architecture sketch/office
   },
   {
     name: "Bakü Devlet Üniversitesi",
     city: "Bakü",
     founded: "1919",
     description: "Ülkenin en eski yükseköğretim kurumu olarak zengin bir akademik geleneğe sahip olan üniversite, vizyoner liderler yetiştirmesiyle tanınır.",
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop", // Graduation
   },
   {
     name: "Azerbaycan Tıp Üniversitesi",
     city: "Bakü",
     founded: "1930",
     description: "Gelişmiş laboratuvarları ve uzman eğitim kadrosuyla, uluslararası standartlarda hekimler ve sağlık profesyonelleri yetiştiren lider tıp akademisi.",
-    image: "https://images.unsplash.com/photo-1576081516039-4abfb80783fa?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1576081516039-4abfb80783fa?q=80&w=800&auto=format&fit=crop", // Medicine / lab
   },
   {
     name: "Azerbaycan Devlet İktisat Üniversitesi",
     city: "Bakü",
     founded: "1930",
     description: "Ekonomi ve işletme alanlarında inovatif ve modern eğitim anlayışıyla, global arenada rekabet edebilecek finans uzmanlarına yön veren saygın kurum.",
-    image: "https://images.unsplash.com/photo-1578572573212-e8869c97b8cc?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1578572573212-e8869c97b8cc?q=80&w=800&auto=format&fit=crop", // Business / finance abstract
   },
   {
     name: "Azerbaycan Diller Üniversitesi",
     city: "Bakü",
     founded: "1973",
     description: "Çok dilli ve çok kültürlü bir eğitim ortamı sunarak, uluslararası iletişim yeteneği yüksek filologlar ve tercümanlar yetiştiren eğitim merkezi.",
-    image: "https://images.unsplash.com/photo-1555436169-d4da7c6ca911?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1546415822-7af510dcb8c9?q=80&w=800&auto=format&fit=crop", // Library/learning
   },
   {
     name: "Azerbaycan Medeniyet ve İncesanat Üniversitesi",
     city: "Bakü",
     founded: "1945",
     description: "Kültür, sanat ve tasarım alanlarında yaratıcılığın sınırlarını zorlayan, yetenekli sanatçılar ve kültür elçileri yetiştiren köklü akademi.",
-    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop", // Arts / vibrant
   },
   {
     name: "Nahçıvan Devlet Üniversitesi",
     city: "Nahçıvan",
     founded: "1967",
     description: "Gelişen altyapısı ve yenilikçi eğitim yaklaşımlarıyla bölgesinde eğitim meşalesini taşıyan, seçkin akademik programlara sahip prestijli eğitim yuvası.",
-    image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=800&auto=format&fit=crop", // Library aisles
   },
   {
     name: "Gence Devlet Üniversitesi",
     city: "Gence",
     founded: "1938",
     description: "Tarihi Gence şehrinin kültürel dokusuyla harmanlanmış, akademik çeşitliliği ve araştırma odaklı vizyonuyla öne çıkan değerli yükseköğretim kurumu.",
-    image: "https://images.unsplash.com/photo-1627556592933-ffe99c1c9cd8?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop", // Students walking
   },
   {
     name: "Gence Agrar Üniversitesi",
     city: "Gence",
     founded: "1929",
     description: "Ziraat ve tarım bilimleri alanında derin bir uzmanlığa sahip olan üniversite, sürdürülebilir tarım teknolojilerinde geleceğin mühendislerini yetiştirir.",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=800&auto=format&fit=crop", // Agriculture/field
   },
   {
     name: "Azerbaycan Devlet Petrol ve Sanayi Üniversitesi",
     city: "Bakü",
     founded: "1920",
     description: "Enerji ve sanayi sektörlerine yön veren tarihi mirasıyla, küresel petrol ve endüstri mühendisliği alanında lider ve köklü bir bilim merkezi.",
-    image: "https://images.unsplash.com/photo-1518598739987-9bb19054ca63?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop", // Industry / Engineering
   },
   {
     name: "Azerbaycan Devlet Pedagoji Üniversitesi",
     city: "Bakü",
     founded: "1921",
     description: "Geleceğin nesillerini yetiştirecek donanımlı, idealist ve modern eğitim yöntemlerine hakim öğretmenler yetiştiren saygın eğitim ocağı.",
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop", // Classroom / Teaching
   },
 ];
 
