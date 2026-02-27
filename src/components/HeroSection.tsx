@@ -42,8 +42,7 @@ const HeroSection = () => {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 rounded-full px-8 text-base"
+              className="bg-gold hover:bg-gold-dark text-accent-foreground font-semibold rounded-full px-8 text-base transition-all duration-300 hover:shadow-xl hover:shadow-gold/20"
             >
               <a href="#about">Daha Fazla Bilgi</a>
             </Button>

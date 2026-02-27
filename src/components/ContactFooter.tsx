@@ -20,19 +20,19 @@ const ContactFooter = () => {
             <ContactCard
               icon={MapPin}
               title="Adres"
-              detail="Kavaklıdere Mah. Atatürk Bulvarı NO:185 Regus İş Merkezi Kat 6 Ofis NO:618 Çankaya/Ankara"
+              detail="Şefik Seyfettin Bulvarı, Akyurt Konutları A3 No: 1"
             />
             <ContactCard
               icon={Phone}
               title="Telefon"
-              detail="+90 507 241 0296"
-              href="tel:+905072410296"
+              detail="0534 919 33 25"
+              href="tel:+905349193325"
             />
             <ContactCard
               icon={Mail}
               title="E-posta"
-              detail="info@eliteegitim.com"
-              href="mailto:info@eliteegitim.com"
+              detail="cihangblkcg@gmail.com"
+              href="mailto:cihangblkcg@gmail.com"
             />
           </div>
         </div>
@@ -43,10 +43,10 @@ const ContactFooter = () => {
         <div className="container mx-auto px-4 text-center">
           <span className="text-gold font-semibold text-sm uppercase tracking-widest">Şubelerimiz</span>
           <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mt-3 mb-4">
-            Ankara Merkez Ofis
+            Genel Merkez
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Kavaklıdere Mah. Atatürk Bulvarı NO:185 Regus İş Merkezi Kat 6 Ofis NO:618 Çankaya/Ankara
+            Şefik Seyfettin Bulvarı, Akyurt Konutları A3 No: 1
           </p>
         </div>
       </section>

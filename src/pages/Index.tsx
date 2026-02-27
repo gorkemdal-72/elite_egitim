@@ -9,10 +9,11 @@ import StatsSection from "@/components/StatsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BlogSection from "@/components/BlogSection";
 import ContactFooter from "@/components/ContactFooter";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
       <Navbar />
       <HeroSection />
       <StatsSection />
@@ -24,6 +25,7 @@ const Index = () => {
       <TestimonialsSection />
       <BlogSection />
       <ContactFooter />
+      <WhatsAppButton />
     </div>
   );
 };
